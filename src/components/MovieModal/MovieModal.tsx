@@ -51,7 +51,7 @@ export default function MovieModal({ movie, onClose }: MovieModalProps) {
         </button>
         <img
           src={
-            movie.poster_path
+            movie.backdrop_path
               ? `${BACKDROP_BASE}${movie.backdrop_path}`
               : PLACEHOLDER
           }
